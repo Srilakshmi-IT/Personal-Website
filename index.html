@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+
         <title>Personal website</title>
     <!--Making Responsive web page-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <style>
+    <link href="style.css" type="text/css" rel="stylesheet" ></link>
+    <!--<style>
         [class*="col-"] {
   float: left;
-  padding: 15px;
+  padding: 10px;
 }
 
 .col-1 {width: 8.33%;}
@@ -23,19 +25,19 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-    </style> 
+    </style> -->
     </head>
 
     <body>
         <div class="header">
             <h1>S.S.SRILAKSHMI</h1><B></B>
         </div>
-
-        <div>
+        <br><br>
+        <div class="section">
             <!--About me section-->
-            <div><p><B>About Me</B></p></div>
+          <div><p class="abouth"></p><B><h2>About Me</h2></B></p></div>
             
-            <p>I am <B>S.S.SRILAKSHMI</B>. I belong to Madurai.
+            <p class="about">I am <B>S.S.SRILAKSHMI</B>. I belong to Madurai.
                 I am currently pursuing <B>B.Tech.Information Technology</B> in <B>Thiagarajar College of Enginneerning,Madurai.</B>
                 I completed my <B>Diploma in Computer Applicationson (DCA)</B> 2016.
                 I am interested in <B>DataBase Management Systems,Web Application Development and Datascience.</B> 
@@ -47,9 +49,9 @@
             
         </div>
         <hr>
+        <div class="s1">
         <div class="section">
         <div class="row">
-            
             <div class="col-4">
                 <h2><B>My Skills</B></h2>
                 <ul><li>Microsoft Powerpoint</li><br>
@@ -67,7 +69,7 @@
             </div>
         
         
-            <div class="col-4">
+            <div class="col-3">
                 <h2><B>Online Courses</B></h2>
                 <ul><li>Introduction to Data Science in Python </li><br>
                     <li>Problem Solving using Programming in C</li><br>
@@ -75,53 +77,69 @@
                     <li>Java Tutorial Course</li><br>
                     <li>C Tutorial Course</li><br>
                     <li>PHP Tutorial Course</li><br>
+                    <br><br><br><br>
                 
                 </ul>
 
             </div>
         
             <div class="col-3">
-            <h2><B>Guided Projects</B></h2><br>
+            <h2><B>Guided Projects</B></h2>
                 <ul><li>Create Your First Web App with Python and Flask</li><br>
                     <li>Linear Regression with NumPy and Python</li><br>
                     <li>RESTful API with HTTP and JavaScript</li><br>
                     <li>Intermediate Relational Database and SQL</li><br>
-                    
+                    <br><br><br><br>
                 </ul>
 
             </div>
     
-    </div>
+        </div>
        
 </div>
 
-
-        <div class = "section">
-            <h2><strong>My Projects</strong></h2>
-
-            <h3>Travel Management System</h3>
-            <p>This application is developed for making reservations and cancellations of Bus,train,Flight 
+</div>
+<hr>
+        <div class="section">
+        <h2>My Projects</h2>
+        <div class="row2">
+            <div class="column left">
+          <h3><B>Travel Management System</B></h3>
+            <p class="proj1">This application is developed for making reservations and cancellations of Bus,train,Flight 
             in a single website. This is a team project. We are 2 members. 
             We were performing Database operations in Oracle and finally We made this application with HTML,CSS, Bootstrap,Javascript,PHP,Mysql.</p>
+        </div>
+
+            <div class="column middle">
             <h3>Vehicle Pooling System</h3>
-            <p>This vehicle pooling system displays available vehicles and users can make reservation of vehicles by selecting type of vehicle and gender. 
+            <p class="proj2">This vehicle pooling system displays available vehicles and users can make reservation of vehicles by selecting type of vehicle and gender. 
                 The people who wish to share their vehicles needs to register first by giving their vehicle details,date,time and fare.  
                 We used HTML,CSS,Javascript,PHP,Mysql in this application. As a team of 3 members we made this application during Winter Internship on 2019.</p>
+        
+            </div>
 
+            <div class="column right">
             <h3>COVID 19 Madurai Tracker</h3>
-            <p>This website displays the daily COVID cases, Stastistics, Twitter feeds of Health Minister, COVID 19. 
-                This application was developed for Webophilia Event which was organised by our IT departent Seniors on May 2020. </p>
-
+            <p class="proj3">This website displays the daily COVID cases, Stastistics, Twitter feeds of Health Minister, COVID 19. 
+                This application was developed for <i>Webophilia - Web application event</i> which was organised by our IT department Seniors on May 2020. </p>
+        
+            </div>
+            </div>
         </div>
-
         <div class = "section">
             <h2><strong>My Posters</strong></h2>
-            <img src="poster1.png" style="max-width:100%;">
-            <img src="poster2.png" style="max-width:100%;" >
-            <img src="poster3.jpg" style="max-width:100%;">
+            <div class="row3">
+                <div class="column l">
+            <img src="poster1.png" height = "450" width = "300"/></div>
 
+            <div class="column m">
+            <img src="poster2.png" height = "450" width = "300"/></div>
+            <div class="column r">
+            <img src="poster3.jpg" height = "380" width = "480"/></div>
 
         </div>
+        </div>
+        <br><br>
         
     </body>
     <footer><div class="section">
