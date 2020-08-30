@@ -1,4 +1,9 @@
-
+body{
+  margin-left: 12px;
+  margin-right: 12px;
+  border-style: hidden;
+  background-color:purple;
+}
 .header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-variant: normal;
@@ -8,18 +13,24 @@
     border-style:double;
     background-color:lavenderblush;
     }
-  
-  body{
-    margin-left: 12px;
-    margin-right: 12px;
-    border-style: hidden;
-    background-color:purple;
-  }
+    .section{
+      border-style: hidden;
+    }
+    .about{
+      font-family: "Brush Script MT", cursive; 
+    }
   div.s1{
       border-style: hidden;
   }
-  .section{
-    border-style: hidden;
+  h2{
+    font-family:Verdana, Geneva, sans-serif;
+    border-style: inset;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    text-align:center;
+    background-color:moccasin;
   }
 
   .column{
@@ -44,16 +55,7 @@
     width:40%;
 }
 
-  h2{
-    font-family:Verdana, Geneva, sans-serif;
-    border-style: inset;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    padding: 10px;
-    margin: 0 0 10px 0;
-    text-align:center;
-    background-color:moccasin;
-  }
+  
   hr{
     border:0;
     height:2px;
@@ -100,9 +102,7 @@
   .col-12 {width: 100%;}
     
   
-  .about{
-    font-family: "Brush Script MT", cursive; 
-  }
+  
   li{
     font-family: Georgia, Times, "Times New Roman", serif;
     font-style: normal;
@@ -160,6 +160,4 @@
     /*background-color:orchid;*/
     background-color: purple;
     margin-bottom: 15px;
-    
-
   }
