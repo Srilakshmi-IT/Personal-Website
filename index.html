@@ -5,31 +5,14 @@
         <title>Personal website</title>
     <!--Making Responsive web page-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!--Integrating CSS and Javascript file-->
     <link href="style.css" type="text/css" rel="stylesheet" ></link>
     <script type="text/javascript" src="src.js"></script>
-    <!--<style>
-        [class*="col-"] {
-  float: left;
-  padding: 10px;
-}
-
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-    </style> -->
+   
     </head>
 
     <body>
+        <!--Header part displaying my name-->
         <div class="header">
             <h1>S.S.SRILAKSHMI</h1><B></B>
         </div>
@@ -50,6 +33,7 @@
             
         </div>
         <hr>
+        <!--The below section displays my skills,online courses,guided projects-->
         <div class="s1">
         <div class="section">
         <div class="row">
@@ -59,12 +43,12 @@
                 <li>Python</li><br>
                 <li>Java</li><br>
                 <li>C</li><br>
-                <li>HTML</li><br>
-                <li>CSS</li><br>
+                <li><div onmouseover="m1Over(this)" onmouseout="m1Out(this)">HTML</div></li><br>
+                <li><div onmouseover="m2Over(this)" onmouseout="m2Out(this)">CSS</div></li><br>
                 
                 <li>JavaScript</li><br>
-                <li>PHP</li><br>
-                <li>SQL</li><br>
+                <li><div onmouseover="m3Over(this)" onmouseout="m3Out(this)">PHP</div></li><br>
+                <li><div onmouseover="m4Over(this)" onmouseout="m4Out(this)">SQL</div></li><br>
 
                 </ul>
             </div>
@@ -101,6 +85,7 @@
 
 </div>
 <hr>
+<!--Projects displayed here-->
         <div class="section">
         <h2>My Projects</h2>
         <div class="row2">
@@ -127,6 +112,8 @@
             </div>
             </div>
         </div>
+
+        <!--Displaying Posters images -->
         <div class = "section">
             <h2><strong>My Posters</strong></h2><br>
             <div class="row3">
@@ -146,11 +133,11 @@
         <br><br>
         
     </body>
+    <!--Displaying contact information in footer section-->
     <footer><div class="section">
         <h2>Contact me</h2>
-        <p><b>mail-id : srilakshmi@student.tce.edu</b></p><br>
-        
-        <!--<p><b>linked-in : https://www.linkedin.com/in/s-s-srilakshmi-87863117a</b></p><br>-->
+        <b><img src="email.jpg" width="30" height="30"/>mail-id : srilakshmi@student.tce.edu</b><br>
+
 
     </div></footer>
 </html>
