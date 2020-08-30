@@ -19,6 +19,10 @@ body{
     .about{
       font-family: "Brush Script MT", cursive; 
     }
+  [class*="col-"] {
+  width: 100%;
+}
+
   div.s1{
       border-style: hidden;
   }
